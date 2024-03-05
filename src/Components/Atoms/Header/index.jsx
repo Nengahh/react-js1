@@ -51,10 +51,10 @@ export default function Header() {
 
   const navigation = [
     { name: 'Buat Quiz', href: '/admin/createquiz', current: true },
-    { name: 'Edit Quiz', href: '#', current: false },
-    { name: 'Buat Pertanyaan', href: '#', current: false },
-    { name: 'Edit Pertanyaan', href: '#', current: false },
-    { name: 'Skor', href: '#', current: false },
+    { name: 'Edit Quiz', href: '/admin/editquiz', current: false },
+    { name: 'Buat Pertanyaan', href: '/admin/Pertanyaan', current: false },
+    { name: 'Edit Pertanyaan', href: '/admin/editpertanyaan', current: false },
+    { name: 'Skor', href: '/admin/skor', current: false },
   ];
 
   return (

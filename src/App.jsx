@@ -1,6 +1,6 @@
 import { Header,QuestionList, PrivateRoute } from "./Components/Atoms";
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
-import { DetailProduct, Home, AllProduct, Login, Profile,Example, Questationlist,CreateQuiz} from "./Pages";
+import { ScoreById, Home, EditQuestion, Login, EditQuiz,Example, Questationlist,CreateQuiz,Pertanyaan} from "./Pages";
 
 // import RoleBasedRoute from "./service/rolebase"; 
 
@@ -28,6 +28,10 @@ function App() {
 
         <Route path="/admin" element={<Example />} />
         <Route path="/admin/createquiz" element={<CreateQuiz />} />
+        <Route path="/admin/editquiz" element={<EditQuiz />} />
+        <Route path="/admin/editpertanyaan" element={<EditQuestion />} />
+        <Route path="/admin/skor" element={<ScoreById />} />
+        <Route path="/admin/Pertanyaan" element={<Pertanyaan />} />
             <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         {/* <Route path="/quiz/:id" element={QuestionList} /> */}

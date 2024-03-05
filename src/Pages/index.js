@@ -6,4 +6,7 @@ export { default as Profile } from "./Profile";
 export { default as Example } from "./admin";
 export { default as Questationlist } from "./questasionlist";
 export { default as CreateQuiz } from "./buat quiz";
-
+export { default as Pertanyaan } from "./buat pertanyaan";
+export { default as EditQuiz } from "./editQuiz";
+export { default as EditQuestion } from "./edit pertanyaan";
+export { default as ScoreById } from "./skor";
